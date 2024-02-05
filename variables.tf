@@ -30,12 +30,6 @@ variable "rules" {
   default     = []
 }
 
-variable "subnets" {
-  description = "The list of subnets to associate with the network security group."
-  type        = list(string)
-  default     = []
-}
-
 variable "name" {
   description = "The name of the network security group."
   type        = string
