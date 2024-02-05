@@ -12,7 +12,7 @@ a terraform module that simplifies the creation of an azurerm_network_security_g
 
 ```hcl
 module "example_nsg"{
-    source = "github.com/mmed-hadjnasr/simplified_nsg"
+    source = "github.com/mmed-hajnasr/simplified_nsg"
     name="example_nsg"
     location            = "francecentral"
     resource_group_name = "test"
